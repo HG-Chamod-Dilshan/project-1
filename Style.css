@@ -2,3 +2,31 @@ body {
 	background-image: url(background.jpg);
 	background-size:cover;
 }
+
+body {
+    font: italic small-caps bold 44px Georgia, sans-serif; /* fallback for older browsers */
+    font: ultra-condensed italic small-caps bold 33px Georgia, sans-serif;
+}
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{font-size: 3rem;
+   color: hotpink;}
+
+h2{font:serif;
+color: deeppink;}
+
+.btn {font: 700;
+border-radius: 300px;
+text-transform: uppercase;}
+
+.btn-primary{
+    background-color: #F05F44;
+    border-color: darkred;
+    border-top-width: inherit;
+}
