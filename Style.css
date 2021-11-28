@@ -31,3 +31,14 @@ text-transform: uppercase;}
 .bg-primary {
   background-color: #ab2376 !important;
 }
+.padding-1{
+ 
+    padding: 1em;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
